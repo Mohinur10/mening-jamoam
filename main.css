@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 70px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header__link{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.header__btn{
+    background: #6157AB;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+}
+.header__list--iteam{
+    list-style-type: none;
+}
+.header__list--iteam a{
+    text-decoration: none;
+    color: #636769;
+}
